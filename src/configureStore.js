@@ -15,7 +15,7 @@ export default function configureStore(onCompletion:()=>void):any {
 	    }),
 	);
 
-	let store = createStore(enhancer);
+	let store = createStore(reducer, enhancer);
 	persistStore(store, {storage: AsyncStorage}, onCompletion);
 
 	return store

@@ -4,8 +4,8 @@ import React, { Component } from 'React';
 import { StyleSheet, View } from 'react-native';
 import { Provider } from 'react-redux';
 
-import App from './src/containers/App';
-import configureStore from './src/configureStore'
+import App from './containers/App';
+import configureStore from './configureStore'
 
 function setup():React.Component {
 

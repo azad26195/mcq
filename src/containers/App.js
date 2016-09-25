@@ -6,8 +6,6 @@ import {
 	Text 
 } from 'react-native';
 
-import theme from './themes/base-theme';
-
 class App extends Component {
     
     constructor(props) {

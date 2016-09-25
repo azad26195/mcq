@@ -6,6 +6,8 @@ import {
 	Text 
 } from 'react-native';
 
+import AppNavigator from './containers/AppNavigator';
+
 class App extends Component {
     
     constructor(props) {
@@ -14,7 +16,7 @@ class App extends Component {
 
     render() {
             return(
-                <Text>{"Hiee"}</Text>
+                <AppNavigator store={this.props.store}/> 
             );
     }
 }
